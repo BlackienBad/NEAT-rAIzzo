@@ -1,0 +1,386 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="it" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="it" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>rAIzzo module &mdash; Neat rAIzzo 1.0 documentazione</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+        <script src="_static/translations.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Indice" href="genindex.html" />
+    <link rel="search" title="Cerca" href="search.html" />
+    <link rel="prev" title="src" href="modules.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Neat rAIzzo
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">src</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">rAIzzo module</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Neat rAIzzo</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="modules.html">src</a> &raquo;</li>
+        
+      <li>rAIzzo module</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/rAIzzo.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-rAIzzo">
+<span id="raizzo-module"></span><h1>rAIzzo module<a class="headerlink" href="#module-rAIzzo" title="Link a questa intestazione">¶</a></h1>
+<dl class="py class">
+<dt id="rAIzzo.Genomi">
+<em class="property">class </em><code class="sig-prename descclassname">rAIzzo.</code><code class="sig-name descname">Genomi</code><a class="headerlink" href="#rAIzzo.Genomi" title="Link a questa definizione">¶</a></dt>
+<dd><blockquote>
+<div><p>Basi: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+</div></blockquote>
+<p>Classe che contiene il metodo principale per l’intelligenza artificiale</p>
+<dl class="py method">
+<dt id="rAIzzo.Genomi.eval_genomes">
+<code class="sig-name descname">eval_genomes</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">config</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rAIzzo.Genomi.eval_genomes" title="Link a questa definizione">¶</a></dt>
+<dd><p>Effettua la simulazione sulla popolazione corrente di razzi e setta il loro fitness in base ai parametri
+scelti, ovvero, in base a quanta distanza raggiungono</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parametri</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>genomi</strong> (<em>list</em>) – lista di genomi per l’algoritmo NEAT</p></li>
+<li><p><strong>config</strong> (<em>Config</em>) – oggetto config per il funzionamento dell’algoritmo</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="rAIzzo.Pavimento">
+<em class="property">class </em><code class="sig-prename descclassname">rAIzzo.</code><code class="sig-name descname">Pavimento</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">y</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rAIzzo.Pavimento" title="Link a questa definizione">¶</a></dt>
+<dd><blockquote>
+<div><p>Basi: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+</div></blockquote>
+<p>Rappresenta il pavimento che si muove, serve a controllare quando il razzo è sceso troppo e non può risalire</p>
+<dl class="py method">
+<dt id="rAIzzo.Pavimento.disegna_pavimento">
+<code class="sig-name descname">disegna_pavimento</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">win</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rAIzzo.Pavimento.disegna_pavimento" title="Link a questa definizione">¶</a></dt>
+<dd><p>Disegna il pavimento</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parametri</dt>
+<dd class="field-odd"><p><strong>win</strong> (<em>pygame.Surface</em>) – una window pygame</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="rAIzzo.Pavimento.muovi_pavimento">
+<code class="sig-name descname">muovi_pavimento</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rAIzzo.Pavimento.muovi_pavimento" title="Link a questa definizione">¶</a></dt>
+<dd><p>Crea due immagini identiche del pavimento che si muovono verso sinistra in maniera ciclica per dare una
+sensazione di movimento</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="rAIzzo.Razzo">
+<em class="property">class </em><code class="sig-prename descclassname">rAIzzo.</code><code class="sig-name descname">Razzo</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">x</span></em>, <em class="sig-param"><span class="n">y</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rAIzzo.Razzo" title="Link a questa definizione">¶</a></dt>
+<dd><blockquote>
+<div><p>Basi: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+</div></blockquote>
+<p>La classe razzo rappresenta il personaggio, ha degli attributi statici come:
+tempo di animazione, che serve per dare il tempo al cambio delle immagini
+imgs che è il vettore di immagini definite fuori dalla classe come razzo_img</p>
+<dl class="py method">
+<dt id="rAIzzo.Razzo.disegna_razzo">
+<code class="sig-name descname">disegna_razzo</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">win</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rAIzzo.Razzo.disegna_razzo" title="Link a questa definizione">¶</a></dt>
+<dd><p>disegna il razzo</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parametri</dt>
+<dd class="field-odd"><p><strong>win</strong> (<em>pygame.Surface</em>) – una window pygame</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="rAIzzo.Razzo.get_mask">
+<code class="sig-name descname">get_mask</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rAIzzo.Razzo.get_mask" title="Link a questa definizione">¶</a></dt>
+<dd><p>Prende la mask del razzo, questo per calcolare le collisioni in maniera più precisa</p>
+<dl class="field-list simple">
+<dt class="field-odd">Ritorna</dt>
+<dd class="field-odd"><p>una maschera contentente una matrice che indica quali pixel dell’oggetto razzo</p>
+</dd>
+<dt class="field-even">Tipo di ritorno</dt>
+<dd class="field-even"><p>pygame.mask.Mask</p>
+</dd>
+</dl>
+<p>sono visivamente occupati e quali no</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="rAIzzo.Razzo.muovi_razzo">
+<code class="sig-name descname">muovi_razzo</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rAIzzo.Razzo.muovi_razzo" title="Link a questa definizione">¶</a></dt>
+<dd><p>Fa muovere il razzo #da controllare</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="rAIzzo.Razzo.vola">
+<code class="sig-name descname">vola</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rAIzzo.Razzo.vola" title="Link a questa definizione">¶</a></dt>
+<dd><p>Fa volare il razzo rendendo la sua velocità negativa</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="rAIzzo.Spina">
+<em class="property">class </em><code class="sig-prename descclassname">rAIzzo.</code><code class="sig-name descname">Spina</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">x</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rAIzzo.Spina" title="Link a questa definizione">¶</a></dt>
+<dd><blockquote>
+<div><p>Basi: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+</div></blockquote>
+<p>Rappresenta un oggetto Spina</p>
+<dl class="py method">
+<dt id="rAIzzo.Spina.collisioni">
+<code class="sig-name descname">collisioni</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">razzo</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rAIzzo.Spina.collisioni" title="Link a questa definizione">¶</a></dt>
+<dd><p>Controlla le collisioni</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parametri</dt>
+<dd class="field-odd"><p><strong>razzo</strong> (<a class="reference internal" href="#rAIzzo.Razzo" title="rAIzzo.Razzo"><em>Razzo</em></a>) – un oggetto razzo</p>
+</dd>
+<dt class="field-even">Ritorna</dt>
+<dd class="field-even"><p>un booleano, true se il razzo ha avuto una collisione con una delle due spine, falso altrimenti</p>
+</dd>
+<dt class="field-odd">Tipo di ritorno</dt>
+<dd class="field-odd"><p>Bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="rAIzzo.Spina.disegna_spine">
+<code class="sig-name descname">disegna_spine</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">win</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rAIzzo.Spina.disegna_spine" title="Link a questa definizione">¶</a></dt>
+<dd><p>Disegna la spina di sopra e la spina di sotto</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parametri</dt>
+<dd class="field-odd"><p><strong>win</strong> (<em>pygame.Surface</em>) – una window pygame</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="rAIzzo.Spina.muovi_spine">
+<code class="sig-name descname">muovi_spine</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rAIzzo.Spina.muovi_spine" title="Link a questa definizione">¶</a></dt>
+<dd><p>Muove le spine basandosi sulla velocità (VEL)</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="rAIzzo.Spina.set_height">
+<code class="sig-name descname">set_height</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rAIzzo.Spina.set_height" title="Link a questa definizione">¶</a></dt>
+<dd><p>Fa il set della posizione della spina</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="rAIzzo.Window">
+<em class="property">class </em><code class="sig-prename descclassname">rAIzzo.</code><code class="sig-name descname">Window</code><a class="headerlink" href="#rAIzzo.Window" title="Link a questa definizione">¶</a></dt>
+<dd><blockquote>
+<div><p>Basi: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+</div></blockquote>
+<p>classe che contiene il metodo principale per la visualizzazione del progetto</p>
+<dl class="py method">
+<dt id="rAIzzo.Window.disegna_window">
+<code class="sig-name descname">disegna_window</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">win</span></em>, <em class="sig-param"><span class="n">razzi</span></em>, <em class="sig-param"><span class="n">spine</span></em>, <em class="sig-param"><span class="n">pavimento</span></em>, <em class="sig-param"><span class="n">punteggio</span></em>, <em class="sig-param"><span class="n">gen</span></em>, <em class="sig-param"><span class="n">spine_index</span></em>, <em class="sig-param"><span class="n">scoremassimo</span></em>, <em class="sig-param"><span class="n">fitnessmassimo</span></em>, <em class="sig-param"><span class="n">fitnessattuale</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rAIzzo.Window.disegna_window" title="Link a questa definizione">¶</a></dt>
+<dd><p>disegna la finestra per visualizzare il gioco e tutte le sue componenti</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parametri</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>win</strong> (<em>pygame.Surface</em>) – una window pygame</p></li>
+<li><p><strong>razzi</strong> (<em>list</em>) – lista di razzi da visualizzare</p></li>
+<li><p><strong>spine</strong> (<em>list</em>) – lista di spine da visualizzare</p></li>
+<li><p><strong>pavimento</strong> (<a class="reference internal" href="#rAIzzo.Pavimento" title="rAIzzo.Pavimento"><em>Pavimento</em></a>) – oggetto pavimento da visualizzare</p></li>
+<li><p><strong>punteggio</strong> (<em>int</em>) – punteggio attuale</p></li>
+<li><p><strong>gen</strong> (<em>int</em>) – generazione attuale</p></li>
+<li><p><strong>spine_index</strong> (<em>int</em>) – intero che controlla quale insieme di spine è il prossimo da superare</p></li>
+<li><p><strong>scoremassimo</strong> (<em>int</em>) – punteggio massimo della partita in corso</p></li>
+<li><p><strong>fitnessmassimo</strong> (<em>int</em>) – fitness massimo della partita in corso</p></li>
+<li><p><strong>fitnessattuale</strong> (<em>int</em>) – fitness attuale</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="modules.html" class="btn btn-neutral float-left" title="src" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Carlo Parisi
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
