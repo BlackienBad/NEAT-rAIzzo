@@ -2,6 +2,8 @@
 
 Intelligenza Artificiale che impara a giocare a un gioco platform utilizzando l'algoritmo [NEAT](http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf)
 
+![r(AI)zzo gameplay](https://media.giphy.com/media/dsRLxuHfKu5jlwJ1NH/giphy.gif)
+
 [![r(AI)zzo](http://img.youtube.com/vi/ADmL-vA8l44/0.jpg)](http://www.youtube.com/watch?v=ADmL-vA8l44 "r(AI)zzo")
 
 Per installare i moduli sarà sufficiente fare da cmd:
