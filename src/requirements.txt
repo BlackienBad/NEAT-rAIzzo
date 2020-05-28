@@ -1,6 +1,3 @@
 neat
-numpy
 pygame
 neat-python
-graphviz
-matplotlib
